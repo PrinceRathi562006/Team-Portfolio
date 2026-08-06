@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+
+<header id="siteHeader">
+  <div class="nav">
+    <div class="brand">
+      <div class="brand-icon"><i class="fa-solid fa-users"></i></div>
+      <div class="brand-text">
+        <h1>DevCrew</h1>
+        <span>Code. Create. Conquer.</span>
+      </div>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#" class="active">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <button class="btn btn-primary desktop-cta">Get In Touch <i class="fa-solid fa-paper-plane"></i></button>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">WELCOME TO DEVCREW</span>
+    <h2>We Build. We Code.<br>We <span class="grad">Create Impact.</span></h2>
+    <p>We are a passionate team of developers, designers, and problem solvers building innovative solutions for a better tomorrow.</p>
+    <div class="hero-actions">
+      <a href="./pages/project.html">
+        <button class="btn btn-primary">View Our Work <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+      </a>
+      <a href="./pages/about.html"><button class="btn btn-outline">Learn More <i class="fa-solid fa-arrow-down"></i></button></a>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-icon i1"><i class="fa-solid fa-code"></i></div>
+        <div><b>15+</b><span>Projects</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon i2"><i class="fa-solid fa-user-group"></i></div>
+        <div><b>4</b><span>Team Members</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon i3"><i class="fa-solid fa-star"></i></div>
+        <div><b>2+</b><span>Years of Experience</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon i4"><i class="fa-solid fa-trophy"></i></div>
+        <div><b>5+</b><span>Achievements</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="orbit-ring"></div>
+    <div class="orbit-ring r2"></div>
+    <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+
+    <div class="float-icon fi1"><i class="fa-solid fa-code"></i></div>
+    <div class="float-icon fi2"><i class="fa-solid fa-code-compare"></i></div>
+    <div class="float-icon fi3"><i class="fa-solid fa-pen-ruler"></i></div>
+    <div class="float-icon fi4"><i class="fa-solid fa-gear"></i></div>
+
+    <div class="laptop">
+      <div class="laptop-screen">
+        <div class="code-line" style="width:55%; background:linear-gradient(90deg,#ff7b7b,#ff9d5c);"></div>
+        <div class="code-line" style="width:75%; background:linear-gradient(90deg,#5c7bff,#5cd6ff);"></div>
+        <div class="code-line" style="width:40%; background:linear-gradient(90deg,#a05cff,#5c7bff);"></div>
+        <div class="code-line" style="width:65%; background:linear-gradient(90deg,#ff5ca0,#ff9d5c);"></div>
+        <div class="code-line" style="width:35%; background:linear-gradient(90deg,#5cffb0,#5cd6ff);"></div>
+        <div class="code-line" style="width:60%; background:linear-gradient(90deg,#5c7bff,#a05cff);"></div>
+        <div class="code-line" style="width:45%; background:linear-gradient(90deg,#ff9d5c,#ff5ca0);"></div>
+      </div>
+      <div class="laptop-base"></div>
+    </div>
+  </div>
+</section>
+
+<section class="team-section" id="team">
+  <div class="team-header">
+    <span class="eyebrow">THE MINDS BEHIND</span>
+    <h3>Our Amazing Team</h3>
+    <div class="underline"></div>
+  </div>
+
+  <div class="team-grid">
+    <div class="card">
+      <div class="card-photo"><img src="./assets/images/Prince.jpeg" alt="Prince" loading="lazy"></div>
+      <h4>Prince</h4>
+      <span class="role blue">MERN Stack Developer</span>
+      <p>Loves building modern web apps and exploring new technologies.</p>
+      <div class="socials">
+        <a class="social" href="https://github.com/PrinceRathi562006" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="social" href="https://www.linkedin.com/in/prince566" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-photo"><img src="" alt="Abhishek Pundir" loading="lazy"></div>
+      <h4>Abhishek Pundir</h4>
+      <span class="role pink">UI/UX Designer</span>
+      <p>Designs beautiful, intuitive and user-friendly experiences.</p>
+      <div class="socials">
+        <a class="social" href="https://github.com/PrinceRathi562006" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="social" href="https://www.linkedin.com/in/prince566" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-photo"><img src="./assets/images/Nishant.png" alt="Nishant" loading="lazy"></div>
+      <h4>Nishant</h4>
+      <span class="role blue">Backend Developer</span>
+      <p>Passionate about backend development and databases.</p>
+      <div class="socials">
+        <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-photo"><img src="" alt="Pushp Malik" loading="lazy"></div>
+      <h4>Pushp Malik</h4>
+      <span class="role pink">Frontend Developer</span>
+      <p>Creates responsive and high-performance web interfaces.</p>
+      <div class="socials">
+        <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand-icon"><i class="fa-solid fa-users"></i></div>
+      <div>
+        <h5>DevCrew</h5>
+        <span>Code. Create. Conquer.</span>
+      </div>
+    </div>
+    <div class="footer-mid">© 2026 DevCrew. All rights reserved.</div>
+    <div class="footer-right">Let's build something amazing together <i class="fa-solid fa-heart"></i></div>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+  });
+  // Close mobile menu when a link is clicked
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', false);
+      navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    });
+  });
+
+  // Header shadow on scroll
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+  });
+</script>
+
 </body>
 </html>
