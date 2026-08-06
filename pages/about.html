@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us — DevCrew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+
+<body>
+
+    <header id="siteHeader">
+        <div class="nav">
+            <div class="brand">
+                <div class="brand-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="brand-text">
+                    <h1>DevCrew</h1>
+                    <span>Code. Create. Conquer.</span>
+                </div>
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="/">Home</a>
+                <a href="./about.html" class="active">About Us</a>
+                <a href="./project.html">Projects</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+
+            <button class="btn btn-primary desktop-cta">Get In Touch <i class="fa-solid fa-paper-plane"></i></button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== About Hero ===== -->
+    <section class="about-hero">
+        <div class="about-copy fade-up" style="animation-delay:.05s">
+            <span class="eyebrow">ABOUT US</span>
+            <h2>We're a team of<br><span class="grad-text">innovators, creators,</span><br>and <span
+                    class="violet">problem solvers.</span></h2>
+            <p>DevCrew is a group of passionate developers, designers, and thinkers who love turning ideas into
+                impactful digital solutions. We believe in collaboration, creativity, and continuous learning to build
+                products that make a difference.</p>
+
+            <div class="pill-row">
+                <div class="pill"><span class="pill-icon"><i class="fa-solid fa-people-arrows"></i></span>Collaborative
+                    Teamwork</div>
+                <div class="pill"><span class="pill-icon"><i class="fa-solid fa-bullseye"></i></span>Result Driven</div>
+                <div class="pill"><span class="pill-icon"><i class="fa-solid fa-code"></i></span>Clean Code</div>
+                <div class="pill"><span class="pill-icon"><i class="fa-solid fa-arrows-rotate"></i></span>User Focused
+                </div>
+            </div>
+        </div>
+
+        <div class="about-photo-wrap fade-up" style="animation-delay:.2s">
+            <div class="dash-orbit"></div>
+            <span class="spark s1"></span><span class="spark s2"></span>
+
+            <div class="float-icon fi1"><i class="fa-solid fa-code"></i></div>
+            <div class="float-icon fi2"><i class="fa-solid fa-code-compare"></i></div>
+            <div class="float-icon fi3"><i class="fa-solid fa-gear"></i></div>
+            <div class="float-icon fi4"><i class="fa-solid fa-lightbulb"></i></div>
+
+            <div class="about-photo">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&h=700&fit=crop&q=80"
+                    alt="DevCrew team collaborating around a laptop">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Mission / Vision ===== -->
+    <section class="mv-panel fade-up" style="animation-delay:.1s">
+        <div class="mv-inner">
+            <div class="mv-col">
+                <h3>OUR MISSION</h3>
+                <p>To build innovative and reliable digital solutions that empower businesses and people. We aim to
+                    deliver excellence through technology and creativity.</p>
+            </div>
+
+            <div class="rocket-badge"><i class="fa-solid fa-rocket"></i></div>
+
+            <div class="mv-col right">
+                <h3>OUR VISION</h3>
+                <p>To be a globally recognized team known for our impact, integrity, and innovation. We strive to create
+                    a better digital world, one solution at a time.</p>
+            </div>
+
+            <div class="stats-bar" style="grid-column:1/-1;">
+                <div class="stat">
+                    <div class="stat-icon i1"><i class="fa-solid fa-folder-open"></i></div>
+                    <div><b>15+</b><span>Projects Completed</span></div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon i2"><i class="fa-solid fa-user-group"></i></div>
+                    <div><b>4</b><span>Team Members</span></div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon i3"><i class="fa-solid fa-star"></i></div>
+                    <div><b>2+</b><span>Years of Experience</span></div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon i4"><i class="fa-solid fa-trophy"></i></div>
+                    <div><b>5+</b><span>Achievements</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Team ===== -->
+    <section class="team-section" id="team">
+        <div class="team-header">
+            <span class="eyebrow">MEET OUR TEAM</span>
+            <h3>The Minds Behind <span class="grad-text">DevCrew</span></h3>
+            <div class="underline"></div>
+        </div>
+
+        <div class="team-grid">
+            <div class="card">
+                <div class="card-photo">
+                    <img src="../assets/images/Prince.jpeg" alt="Prince " loading="lazy">
+                    <span class="badge">Leader</span>
+                </div>
+                <h4>Prince</h4>
+                <span class="role blue">MERN Stack Developer</span>
+                <p>Leads the team and handles end-to-end development. Loves building scalable web apps.</p>
+                <div class="skills-label">Skills</div>
+                <div class="skill-tags">
+                    <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
+                    <span class="tag">Express</span><span class="tag">JavaScript</span>
+                </div>
+                <div class="socials">
+                    <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-photo">
+                    <img src="../assets/images/Nishant.png" alt="Nishant" loading="lazy">
+                    <span class="badge">Designer</span>
+                </div>
+                <h4>Nishant</h4>
+                <span class="role pink">Backend Developer</span>
+                <p>Passionate about Backend development and dataBase</p>
+                <div class="skills-label">Skills</div>
+                <div class="skill-tags">
+                    <span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">Node.js</span>
+                    <span class="tag">Rest Api</span>
+                </div>
+                <div class="socials">
+                    <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-photo">
+                    <img src="../assets/images/Abhishek.jpg" alt="Abhishek" loading="lazy">
+                    <span class="badge">Backend</span>
+                </div>
+                <h4>Abhishek</h4>
+                <span class="role blue">UI/UX Designer</span>
+                <p>Designs beautiful, intuitive and user-friendly experiences.</p>
+                <div class="skills-label">Skills</div>
+                <div class="skill-tags">
+                    <span class="tag">UI Design</span><span class="tag">UX Design</span><span class="tag">User
+                        Research</span>
+                    <span class="tag">Prototyping</span><span class="tag">Responsive Design</span>
+                </div>
+                <div class="socials">
+                    <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-photo">
+                    <img src="../assets/images/Pushp.jpg" alt="Pushp" loading="lazy">
+                    <span class="badge">Frontend</span>
+                </div>
+                <h4>Pushp Malik</h4>
+                <span class="role pink">Frontend Developer</span>
+                <p>Creates responsive and interactive web interfaces with modern technologies.</p>
+                <div class="skills-label">Skills</div>
+                <div class="skill-tags">
+                    <span class="tag">React</span><span class="tag">Tailwind CSS</span><span
+                        class="tag">JavaScript</span>
+                    <span class="tag">HTML</span><span class="tag">CSS</span>
+                </div>
+                <div class="socials">
+                    <a class="social" href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a class="social" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Values ===== -->
+    <section class="values-section fade-up" style="animation-delay:.1s">
+        <div class="values-inner">
+            <div class="values-header">
+                <span class="eyebrow">WHY WORK WITH US?</span>
+                <h3>Our Values. Our Strength.</h3>
+                <div class="underline"></div>
+            </div>
+
+            <div class="values-grid">
+                <div class="value">
+                    <div class="value-icon v1"><i class="fa-solid fa-people-group"></i></div>
+                    <h4>Collaboration</h4>
+                    <p>We believe the best ideas come from working together as a team.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon v2"><i class="fa-solid fa-bullseye"></i></div>
+                    <h4>Excellence</h4>
+                    <p>We are committed to delivering high-quality solutions every time.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon v3"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h4>Innovation</h4>
+                    <p>We embrace new ideas and technologies to create better products.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon v4"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4>Integrity</h4>
+                    <p>Honesty and transparency are at the core of everything we do.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon v5"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                    <h4>Growth</h4>
+                    <p>We never stop learning and always strive to improve ourselves.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="brand-icon"><i class="fa-solid fa-code"></i></div>
+                <div>
+                    <h5>DevCrew</h5>
+                    <span>Code. Create. Conquer.</span>
+                </div>
+            </div>
+            <div class="footer-mid">© 2026 DevCrew. All rights reserved.</div>
+            <div class="footer-right">Let's build something amazing together <i class="fa-solid fa-heart"></i></div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+            navToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', false);
+                navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+
+        const header = document.getElementById('siteHeader');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 10);
+        });
+    </script>
+
+</body>
+
+</html>
