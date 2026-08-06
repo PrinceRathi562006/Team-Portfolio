@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — DevCrew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Caveat:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+
+    <header id="siteHeader">
+        <div class="nav">
+            <div class="brand">
+                <div class="brand-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="brand-text">
+                    <h1>DevCrew</h1>
+                    <span>Code. Create. Conquer.</span>
+                </div>
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Projects</a>
+                <a href="#" class="active">Contact</a>
+            </nav>
+
+            <button class="btn btn-primary desktop-cta">Get In Touch <i class="fa-solid fa-paper-plane"></i></button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="contact-wrap">
+        <div class="contact-grid">
+
+            <!-- ===== Left column ===== -->
+            <div class="contact-copy fade-up" style="animation-delay:.05s">
+                <span class="badge-eyebrow"><span class="badge-dot"></span>CONTACT US</span>
+                <h2>Let's Build Something<br><span class="grad-text">Amazing Together!</span></h2>
+                <p>Have a project in mind or want to collaborate? We'd love to hear from you. <span class="link">Drop us
+                        a message!</span></p>
+
+                <form class="form-panel" onsubmit="return handleSubmit(event)">
+                    <div class="form-title"><i class="fa-solid fa-paper-plane"></i>Send Us a Message</div>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <input type="text" placeholder="Your Name" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email" required>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <input type="tel" placeholder="Your Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="field">
+                        <input type="text" placeholder="Subject">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+
+                    <div class="field">
+                        <textarea placeholder="Your Message" required></textarea>
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- ===== Right column ===== -->
+            <div class="contact-visual">
+                <div class="hero-illustration fade-up" style="animation-delay:.15s">
+                    <div class="globe"></div>
+                    <div class="globe-ring"></div>
+                    <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+
+                    <div class="orbit-icon oi1"><i class="fa-solid fa-at"></i></div>
+                    <div class="orbit-icon oi2"><i class="fa-solid fa-phone"></i></div>
+                    <div class="orbit-icon oi3"><i class="fa-solid fa-location-dot"></i></div>
+
+                    <div class="dash-path"></div>
+                    <i class="fa-solid fa-paper-plane paper-plane"></i>
+
+                    <div class="envelope-wrap">
+                        <div class="envelope">
+                            <div class="envelope-body"></div>
+                            <div class="envelope-flap-l"></div>
+                            <div class="envelope-flap-r"></div>
+                            <div class="envelope-top"></div>
+                        </div>
+                        <div class="letter">
+                            <div class="script">Let's<br>Connect!</div>
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-grid fade-up" style="animation-delay:.25s">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p class="primary">contact@gmail.com</p>
+                            <p>We reply within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon blue"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p class="primary">+91 9783568978</p>
+                            <p>Mon - Sat, 10AM - 6PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p class="primary">India</p>
+                            <p>We'd love to meet you!</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon blue"><i class="fa-solid fa-clock"></i></div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p class="primary">Mon - Sat: 10AM - 6PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="follow-row fade-up" style="animation-delay:.35s">
+                    <div>
+                        <h4>Follow Us</h4>
+                        <p>Stay connected with us on social media</p>
+                    </div>
+                    <div class="social-row">
+                        <a href="#" class="social-sq gh" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-sq li" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                       
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-banner fade-up" style="animation-delay:.1s">
+            <div class="banner-left">
+                <div class="banner-icon"><i class="fa-solid fa-users"></i></div>
+                <p>We are always open to new ideas, collaborations and opportunities.</p>
+            </div>
+            <div class="banner-divider"></div>
+            <div class="banner-right">Let's create something <span class="accent">extraordinary</span> together! <i
+                    class="fa-solid fa-heart"></i></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="brand-icon"><i class="fa-solid fa-code"></i></div>
+                <div>
+                    <h5>DevCrew</h5>
+                    <span>Code. Create. Conquer.</span>
+                </div>
+            </div>
+            <div class="footer-mid">© 2026 DevCrew. All rights reserved.</div>
+            <div class="footer-right">Let's build something amazing together <i class="fa-solid fa-heart"></i></div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+            navToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', false);
+                navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+
+        const header = document.getElementById('siteHeader');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 10);
+        });
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('.submit-btn span');
+            const original = btn.textContent;
+            btn.textContent = 'Message Sent!';
+            e.target.querySelector('.submit-btn').style.opacity = '0.85';
+            setTimeout(() => {
+                btn.textContent = original;
+                e.target.querySelector('.submit-btn').style.opacity = '1';
+                e.target.reset();
+            }, 2200);
+            return false;
+        }
+    </script>
+
+</body>
+
+</html>
